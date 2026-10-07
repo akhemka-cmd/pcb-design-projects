@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM358ADR
+D LM358ADR, Dual Operational Amplifier 0.7MHz 5 to 28V, 8-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/lm358a.pdf
+$ENDCMP
+#
+#End Doc Library

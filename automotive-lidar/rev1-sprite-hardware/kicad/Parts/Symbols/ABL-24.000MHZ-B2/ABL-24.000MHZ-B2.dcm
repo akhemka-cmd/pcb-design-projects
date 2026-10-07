@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABL-24.000MHZ-B2
+D ABRACON - ABL-24.000MHZ-B2 - CRYSTAL, 24M, 18PF CL, HC49/4H
+K
+F https://abracon.com/Resonators/ABL.pdf
+$ENDCMP
+#
+#End Doc Library

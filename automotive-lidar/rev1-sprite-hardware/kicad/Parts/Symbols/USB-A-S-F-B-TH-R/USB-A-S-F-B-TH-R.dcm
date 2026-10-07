@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB-A-S-F-B-TH-R
+D STANDARD & RUGGED USB 2.0
+K
+F http://suddendocs.samtec.com/catalog_english/usb_a.pdf
+$ENDCMP
+#
+#End Doc Library

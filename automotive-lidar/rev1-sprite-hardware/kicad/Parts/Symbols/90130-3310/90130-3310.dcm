@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 90130-3310
+D Molex C-GRID III Series, Series Number 90130, 2.54mm Pitch 10 Way 2 Row Right Angle PCB Header, Solder Termination, 3A
+K
+F https://www.molex.com/pdm_docs/sd/901303310_sd.pdf
+$ENDCMP
+#
+#End Doc Library
