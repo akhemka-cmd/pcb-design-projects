@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MB
+D Castle Creations B-LINK Bluetooth Adapter
+$ENDCMP
+#
+$CMP ME
+D Castle Creations Mamba X ESC
+$ENDCMP
+#
+$CMP MM
+D Castle Creations 1406-series 1900Kv motor
+$ENDCMP
+#
+$CMP MR
+D Traxxas RPM Sensor
+$ENDCMP
+#
+$CMP MS
+D Traxxas High-Torque 400 Servo
+$ENDCMP
+#
+#End Doc Library

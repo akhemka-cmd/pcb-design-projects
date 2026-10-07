@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TR
+D Traxxas TQi 5-channel Receiver
+$ENDCMP
+#
+$CMP TX
+D XBee Pro S2C u.FL Radio + Sparkfun XBee Explorer USB
+$ENDCMP
+#
+#End Doc Library

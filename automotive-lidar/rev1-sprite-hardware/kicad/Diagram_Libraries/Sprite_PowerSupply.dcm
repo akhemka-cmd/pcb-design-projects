@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PB
+D Traxxas iD Power Cell 4S 6700mAh Battery
+$ENDCMP
+#
+$CMP PS
+D Mini-Box M4-ATX PSU
+$ENDCMP
+#
+#End Doc Library

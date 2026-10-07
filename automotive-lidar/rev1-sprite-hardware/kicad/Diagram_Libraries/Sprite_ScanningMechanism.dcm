@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LE
+D US Digital E3 200 CPR Encoder
+$ENDCMP
+#
+$CMP LL
+D Lightware SF30/C LiDAR rangefinder
+$ENDCMP
+#
+$CMP LM
+D iPower GBM5208H-200T Gimbal Motor
+$ENDCMP
+#
+$CMP LS
+D RoverTec BGMC2 ESC
+$ENDCMP
+#
+#End Doc Library
