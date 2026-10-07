@@ -1,0 +1,21 @@
+[DesignatorManager]
+LogicalDesignator0=UM
+LogicalPartID0=1
+DocumentName0=MSub.SchDoc
+ChannelName0=U_MSub
+UniqueID0=\ALTZBVUY\ADOVDNTR\PCLOCPVQ
+PhysicalDesignator0=?
+PhysicalDesignatorLocked0=0
+LogicalDesignator1=DX
+LogicalPartID1=1
+DocumentName1=USB HUB.SchDoc
+ChannelName1=Designator
+UniqueID1=\ALTZBVUY\APPFSGLL\HXTTJRQG
+PhysicalDesignator1=D?
+PhysicalDesignatorLocked1=0
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+
