@@ -1,0 +1,605 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "911224c7-cde0-47b1-9519-1700026aba42")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Sprite_Telemetry:TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TR"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Traxxas TQi 5-channel Receiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TR_0_0"
+				(text "5ch Receiver"
+					(at 7.62 -17.78 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "TR_0_1"
+				(rectangle
+					(start 0 0)
+					(end 16.51 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TR_1_1"
+				(pin output line
+					(at 19.05 -2.54 180)
+					(length 2.54)
+					(name "TR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -6.35 180)
+					(length 2.54)
+					(name "TR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -10.16 180)
+					(length 2.54)
+					(name "TR3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -13.97 180)
+					(length 2.54)
+					(name "TR4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "TR5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 146.05 93.98)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27373148-e297-4df3-941c-9344272e64df")
+	)
+	(bus_entry
+		(at 146.05 90.17)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ebcbdb-2736-4982-9e76-ec8ad72242bb")
+	)
+	(bus_entry
+		(at 146.05 97.79)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f26904b-3eef-45ef-8dc9-3421ed5da7ed")
+	)
+	(bus_entry
+		(at 146.05 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6298f9-513c-49a9-92b4-4557289d51a8")
+	)
+	(bus_entry
+		(at 106.68 101.6)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed60f68c-2396-4ba5-84b4-7a68a043cbdb")
+	)
+	(bus
+		(pts
+			(xy 151.13 99.06) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08be89f9-4739-4bb1-90ef-843fc3f47b9f")
+	)
+	(bus
+		(pts
+			(xy 151.13 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16326c92-db21-47bf-82a7-b16c88499ba5")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32900446-6747-4571-992e-0d6e98b44662")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8be56c-26dd-483f-9043-98b2114f54d0")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c32c537-495e-405c-b7fd-5962913d6029")
+	)
+	(bus
+		(pts
+			(xy 151.13 91.44) (xy 148.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe9f68c-8f47-498f-bb14-b348efbdc6b2")
+	)
+	(bus
+		(pts
+			(xy 101.6 99.06) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a512597-e9c3-41a1-b670-5c889d05c5b9")
+	)
+	(bus
+		(pts
+			(xy 151.13 95.25) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee230dc-f14a-4d31-b391-8d1d3a20f8fc")
+	)
+	(wire
+		(pts
+			(xy 137.16 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e3b305-13ea-4c6c-a95e-5ffe96829d84")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3eecd1d-9f7e-4b07-a677-609fb84c0936")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 146.05 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74650ae-1c0f-485b-b67a-2d75f8eae5c2")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31412e1-5a99-44ae-b185-9219dd17eebb")
+	)
+	(label "TR1.SIG"
+		(at 146.05 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c70fbd9-d284-428f-8ae4-0dce90858038")
+	)
+	(label "TR3.SIG"
+		(at 146.05 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34bb6364-f8f6-4f66-857a-b5109c964da3")
+	)
+	(label "TR4.SIG"
+		(at 146.05 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a1a695e-a341-4904-98d0-91f1282758b1")
+	)
+	(label "TR5.SIG"
+		(at 106.68 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90451ff5-7a62-4e1a-9e3e-a3a582a6c9ee")
+	)
+	(label "TR2.SIG"
+		(at 146.05 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b958588c-ca38-4f17-a8a6-32eb6d571154")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 113.03 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "602a592a-17a5-4d14-a640-d16d1c163fbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_ESC"
+		(shape input)
+		(at 113.03 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f389fc7d-9d63-459c-92e7-7e070b01e924")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "TR2{SERVO}"
+		(shape input)
+		(at 151.13 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "024990ec-f48b-4009-bbfa-8943564187d1")
+	)
+	(hierarchical_label "TR5{SERVO}"
+		(shape input)
+		(at 101.6 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d67c81d-e4c3-4e4b-af20-95ebb140afad")
+	)
+	(hierarchical_label "TR3{SERVO}"
+		(shape input)
+		(at 151.13 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53b1c8a1-3e0a-467f-ab66-6fb49bb9b6ef")
+	)
+	(hierarchical_label "TR1{SERVO}"
+		(shape input)
+		(at 151.13 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd072847-13cc-4ebd-b14d-3b456fafb7ce")
+	)
+	(hierarchical_label "TR4{SERVO}"
+		(shape input)
+		(at 151.13 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dea04642-4d76-4295-9962-d158f7dfea40")
+	)
+	(symbol
+		(lib_id "Sprite_Telemetry:TR")
+		(at 118.11 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005da9c26f")
+		(property "Reference" "U10"
+			(at 126.365 83.439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TR"
+			(at 126.365 85.7504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sprite:TR"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbbcc3f1-a159-4961-a771-7158b8edf523")
+		)
+		(pin "2"
+			(uuid "9067c198-746b-41d3-8dac-c1fbbdc94022")
+		)
+		(pin "3"
+			(uuid "c9861fbc-2cf2-45b0-8315-746cfc2d781d")
+		)
+		(pin "4"
+			(uuid "3594fb66-5b6f-49b2-8329-4e065dd18b66")
+		)
+		(pin "5"
+			(uuid "02bf6293-8c03-46f1-86bf-7d3c016cf0f1")
+		)
+		(pin "G"
+			(uuid "5bae3e7f-d66e-4384-a3a6-09284daece03")
+		)
+		(pin "P"
+			(uuid "e6049e9c-2bce-4d16-aec6-17f5a82f1542")
+		)
+		(instances
+			(project ""
+				(path "/9b6fff56-12db-4aef-a2e1-d9345cf3ec72/00000000-0000-0000-0000-00005da7c9da/00000000-0000-0000-0000-00005dd39017"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
