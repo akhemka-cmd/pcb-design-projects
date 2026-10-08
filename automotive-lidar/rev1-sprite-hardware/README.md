@@ -26,6 +26,28 @@ Top-level sheets in `kicad/SpriteHardware.kicad_sch`:
 | `kicad/Gen1.stp` | Mechanical 3D model |
 | `kicad/sym-lib-table`, `kicad/fp-lib-table` | Library tables (keep alongside the project) |
 
+## Board render
+
+![SpriteHardware 3D render](docs/3d/sprite-3d-top.png)
+
+## Schematics
+
+Rendered from the KiCad sources in `kicad/`:
+
+| Sheet | Preview |
+|---|---|
+| Top level (`SpriteHardware.kicad_sch`) | ![SpriteHardware](docs/schematics/SpriteHardware.png) |
+| Interface Board | ![InterfaceBoard](docs/schematics/InterfaceBoard.png) |
+| BNO055 IMU | ![BNO055](docs/schematics/BNO055.png) |
+| LControl | ![LControl](docs/schematics/LControl.png) |
+| MControl | ![MControl](docs/schematics/MControl.png) |
+| Manual Override | ![ManualOverride](docs/schematics/ManualOverride.png) |
+| Receiver | ![Receiver](docs/schematics/Receiver.png) |
+| USB Hub | ![USBHub](docs/schematics/USBHub.png) |
+| Motion Platform | ![MotionPlatform](docs/schematics/MotionPlatform.png) |
+| Power Supply | ![PowerSupply](docs/schematics/PowerSupply.png) |
+| Scanning Mechanism | ![ScanningMechanism](docs/schematics/ScanningMechanism.png) |
+
 ## Design notes
 
 - Custom KiCad symbol and footprint libraries under `Parts/` and `Diagram_Libraries/` (Teensy, USB2517 hub, Molex/USB connectors).
